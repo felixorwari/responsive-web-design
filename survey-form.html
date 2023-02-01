@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">Junior Software Developer</h1>
+    <p id="description">Fill and submit this form to make your application for the Junior Software Developer job position.</p>
+
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label" for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+
+        <label id="email-label" for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+
+        <label id="number-label" for="number">Age</label>
+        <input type="number" id="number" min="18" max="65" placeholder="Enter your age">
+      </fieldset>
+
+      <p>Where did you learn to code?</p>
+      <select id="dropdown">
+        <option>FreeCodeCamp</option>
+        <option>Coursera</option>
+        <option>edEx</option>
+        <option>Youtube</option>
+      </select>
+
+      <fieldset>
+        <legend>How often did you study?</legend>
+
+        <input type="radio" name="frequency" value="daily"> Daily
+        <input type="radio" name="frequency" value="weekly"> Weekly
+        <input type="radio" name="frequency" value="monthly"> Monthly
+      </fieldset>
+
+      <fieldset>
+        <legend>What are you most proficient in?</legend>
+
+        <input type="checkbox" name="specialty" value="frontend"> Front-end
+        <input type="checkbox" name="specialty" value="backend"> Backend
+        <input type="checkbox" name="specialty" value="fullstack"> Full-stack
+        <input type="checkbox" name="specialty" value="devpps"> DevOps
+      </fieldset>
+
+      <label for="comments" id="comments-label">Additional Comments:</label>
+      <textarea id="comments" name="comments" placeholder="Additional comments"></textarea>
+
+      <button id="submit" type="submit">Send Application</button>
+    </form>
+  </body>
+</html>
