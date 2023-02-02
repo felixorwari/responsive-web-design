@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="tribute-page.css">
+  </head>
+  <body>
+    <nav id="navbar">
+  <header>
+    <h1>Javascript School</h1>
+  </header>
+  
+  <ul>
+  <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+  <li><a class="nav-link" href="#Variables">Variables</a></li>
+  <li><a class="nav-link" href="#Constants">Constants</a></li>
+  <li><a class="nav-link" href="#Data_Types">Data types</a></li>
+  <li><a class="nav-link" href="#Conditional_Logic">Conditional Logic</a></li>
+  <li><a class="nav-link" href="#Functions">Functions</a></li>
+  </ul>
+</nav>
+
+<main id="main-doc">
+  <section id="Introduction" class="main-section">
+    <header>
+      <h1>Introduction</h1>
+    </header>
+
+    <p>JavaScript is a cross-platform, object-oriented scripting language.</p>
+    <p>Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects</p>
+  </section>
+
+  <section id="Variables" class="main-section">
+    <header>
+      <h1>Variables</h1>
+    </header>
+
+    <p>You use variables as symbolic names for values in your application.</p>
+    <code>let y = 13;</code>
+    <code>var x = 42;</code>
+    <p>A JavaScript identifier must start with a letter, underscore (_), or dollar sign ($); subsequent characters can also be digits (0-9).</p>
+  </section>
+
+  <section id="Constants" class="main-section">
+    <header>
+      <h1>Constants</h1>
+    </header>
+
+    <p>You can create a read-only, named constant with the <code>const</code> keyword.</p>
+    <code>const PI = 3.14;</code>
+    <p></p>
+    <code>const MY_OBJECT = {"key": "value"};</code>
+  </section>
+
+  <section id="Data_Types" class="main-section">
+    <header>
+      <h1>Data Types</h1>
+    </header>
+
+    <p>The latest ECMAScript standard defines seven data types:</p>
+    <ul>
+      <li>Six data types that are primitives:</li>
+      <li>and Object</li>
+    </ul>
+
+    <p>Although these data types are a relatively small amount, they enable you to perform useful functions with your applications.</p>
+  </section>
+
+  <section id="Conditional_Logic" class="main-section">
+    <header>
+      <h1>Conditional Logic</h1>
+    </header>
+
+    <p>Use the if statement to execute a statement if a logical condition is true. Use the optional else clause to execute a statement if the condition is false.</p>
+
+    <code>if (condition) { statement_1; } else { statement_2; }</code>
+    <p>You may also compound the statements using else if to have multiple conditions tested in sequence, as follows:</p>
+
+    <code>if (condition_1) { statement_1; } else if (condition_2) {
+    statement_2; } else if (condition_n) { statement_n; } else {
+    statement_last; }</code>
+  </section>
+
+  <section id="Functions" class="main-section">
+    <header>
+      <h1>Functions</h1>
+    </header>
+
+    <p>A function definition (also called a function declaration, or function statement) consists of the function keyword, followed by:</p>
+
+    <ul>
+      <li>The name of the function.</li>
+      <li>A list of arguments to the function, enclosed in parentheses and separated by commas.</li>
+      <li>The JavaScript statements that define the function, enclosed in curly brackets, { }.</li>
+    </ul>
+
+    <p>For example:</p>
+    <code>function square(number) { return number * number; }</code>
+  </section>
+
+</main>
+  </body>
+</html>
